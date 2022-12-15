@@ -1,0 +1,49 @@
+.footer {
+    height: 50vh;
+    background-color:rgb(206, 90, 107);
+    padding-top: 70px;
+    padding-bottom: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.heads {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.heads h2 {
+    color: white;
+    padding: 10px;
+}
+
+.heads a {
+    color: white;
+    font-size: 17px;
+    font-style: italic;
+    line-height: 2;
+    padding: 10px;
+}
+
+@media screen and (max-width:700px) {
+    .footer {
+        height: 100%;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .heads{
+        padding: 5px; 
+    }
+    .heads h2 {
+        font-size: 8px;
+        padding: 5px;
+        font-weight: 900;
+    }
+    .heads a {
+        font-size: 10px;
+        line-height: 1.1;
+        padding: 5px;
+    }
+}

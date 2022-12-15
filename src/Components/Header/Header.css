@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    border-bottom: 1px solid #d8d2d2;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header  h1 {
+    font-weight: 800;
+    font-style:italic;
+}
+
+.ab {
+    text-align: right;
+    padding-right: 40px;
+}
+
+.enrl {
+    background: linear-gradient(90deg, #ed3024 0%, #ff6600 100%);
+    border-radius: 4px;
+    padding: 10px;
+    display: inline-flex;
+    font-weight: 600;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width:700px) {
+    .header {
+        width: 100%;
+    }
+    .ab {
+        display: none;
+    }
+    .header  h1 {
+        font-weight: 600;
+    }
+}
