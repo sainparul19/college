@@ -48,7 +48,7 @@
 
 @media screen and (max-width:700px) {
     .home {
-        height: 50vh;
+        height: 35vh;
     }
     .image {
         width: 300px;
