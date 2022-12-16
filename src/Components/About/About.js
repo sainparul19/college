@@ -2,18 +2,17 @@ import "./About.css";
 
 const About = () => {
 const posts = [
-    {
-        image:"http://www.universitymaharanicollege.ac.in/images/prof-mukta-agrawal.jpg",
+    {image:"https://img.etimg.com/thumb/width-1200,height-900,imgsize-89700,resizemode-1,msid-39893174/news/politics-and-nation/kamla-beniwal-denies-wrongdoing-insists-she-abided-by-law.jpg",
         name:"PROF. MUKTA AGRAWAL",
         post:"Pricipal",
     },
     {
-        image:"http://www.universitymaharanicollege.ac.in/images/governer.jpg",
+        image:"https://img.etimg.com/thumb/width-1200,height-900,imgsize-89700,resizemode-1,msid-39893174/news/politics-and-nation/kamla-beniwal-denies-wrongdoing-insists-she-abided-by-law.jpg",
         name:"SHRI KALRAJ MISHRA",
         post:"Chancellor",
     },
     {
-        image:"http://www.universitymaharanicollege.ac.in/images/vc-rajeev.jpg",
+        image:"https://img.etimg.com/thumb/width-1200,height-900,imgsize-89700,resizemode-1,msid-39893174/news/politics-and-nation/kamla-beniwal-denies-wrongdoing-insists-she-abided-by-law.jpg",
         name:"PROF. RAJEEV JAIN",
         post:"Vice-Chancellor",
     },
