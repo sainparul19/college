@@ -36,7 +36,7 @@
         width: 75px;
         padding: 0;
         display: flex;
-     justify-content: center;
+     align-items: center;
     }
     .fields a {
         font-size: 10px;

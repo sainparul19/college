@@ -6,9 +6,15 @@
     align-items: center;
 }
 
+.pic {
+    height: 60px;
+    width: 60px;
+}
+
 .header  h1 {
     font-weight: 800;
     font-style:italic;
+    color:rgb(203 76 95);
 }
 
 .ab {
@@ -34,11 +40,17 @@ a {
 @media screen and (max-width:700px) {
     .header {
         width: 100%;
+        justify-content: space-between;
     }
     .ab {
-        display: none;
+        padding-right: 10px;
+    }
+    .enrl{
+        padding: 7px;
+        font-weight: 600;
+        font-size: 11px;
     }
     .header  h1 {
-        font-weight: 600;
+        font-size: 20px;
     }
 }

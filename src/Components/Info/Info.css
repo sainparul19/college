@@ -19,7 +19,7 @@ a {
 
 @media screen and (max-width:700px) {
     .inn {
-        height: 5vh;
+        height: 3vh;
         width: 100%;
         overflow-x: hidden;
         display: flex;
