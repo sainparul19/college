@@ -7,12 +7,13 @@
 }
 
 .pic {
-    height: 60px;
-    width: 60px;
+    height: 100px;
+    width: 100px;
 }
 
 .header  h1 {
-    font-weight: 800;
+    font-weight: 900;
+    font-size: 50px;
     font-style:italic;
     color:rgb(203 76 95);
 }
@@ -44,6 +45,10 @@ a {
     }
     .ab {
         padding-right: 10px;
+    }
+    .pic {
+        height: 60px;
+        width: 60px;
     }
     .enrl{
         padding: 7px;
